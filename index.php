@@ -10,8 +10,10 @@
 </head>
 
 <body>
-  <h1>Auto-Boat</h1>
-  <p>Youhou !</p>
+  <div class="frame">
+    <?php include("components/left_menu.php"); ?>
+    <?php include("components/right_menu.php"); ?>
+  </div>
 </body>
 
 </html>
