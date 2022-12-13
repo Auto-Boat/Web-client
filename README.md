@@ -6,5 +6,4 @@ Then open a terminal and type ```git clone <key>```.
 To update the project, type ```git pull``` or click on the specific button on VS Code.
 To install the necessary node modules, type ```npm i```
 # How to run the project in dev mode
-- To convert the SCSS files into CSS files, type ```sass --watch style.scss style/style.css```
 - To run a php server, type ```php -S localhost:8080``` (or another port)
