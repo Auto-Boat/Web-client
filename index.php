@@ -11,8 +11,8 @@
 
 <body>
   <div class="frame">
-    <?php include("components/left_menu.php"); ?>
-    <?php include("components/right_menu.php"); ?>
+    <?php include("layouts/left_menu.php"); ?>
+    <?php include("layouts/right_menu.php"); ?>
   </div>
 </body>
 
