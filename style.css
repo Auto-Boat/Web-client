@@ -10,7 +10,7 @@
 
 :root {
   --background-color: rgb(252, 252, 252);
-  --left-menu-color: rgb(211, 211, 211);
+  --left-menu-color: rgb(210, 255, 253);
   --right-menu-color: rgb(183, 183, 255);
 }
 
@@ -32,11 +32,13 @@ h1 {
 
 h2 {
   font-family: titleFont;
-  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 p {
   font-family: textFont;
+  font-size: 1.3rem;
 }
 
 .frame {
@@ -63,6 +65,26 @@ p {
 .data-list {
   text-align: left;
   margin: 10px 20px 10px 20px;
+  height: fit-content;
+}
+
+.data-container {
+  max-height: 1%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-top: 3px;
+  margin-bottom: 3px; */
+}
+
+.icon {
+  max-width: 20%;
+  height: 100%;
+  max-height: 40px;
+}
+
+.data-info {
+  margin-left: 15px;
 }
 
 .right-menu {

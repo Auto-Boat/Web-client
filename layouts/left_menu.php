@@ -11,12 +11,16 @@ include_once("fonctions.php");
     <h2>System status</h2>
     <!-- Appelle tous les components php dont le nom est dans la statusList -->
     <?php foreach ($statusList as $status) : ?>
-      <p><?php callComponent($status) ?></p>
+      <div class="data-container">
+        <?php callComponent($status) ?>
+      </div>
     <?php endforeach; ?>
     <h2>Data</h2>
     <!-- Appelle tous les components php dont le nom est dans la dataList -->
     <?php foreach ($dataList as $data) : ?>
-      <p><?php callComponent($data) ?></p>
+      <div class="data-container">
+        <?php callComponent($data) ?>
+      </div>
     <?php endforeach; ?>
   </div>
 </div>
