@@ -87,15 +87,6 @@ p {
   margin-left: 15px;
 }
 
-.right-menu {
-  margin: 0 15px 0 15px;
-  background-color: var(--right-menu-color);
-  height: 80%;
-  width: 40%;
-  border-radius: 20px;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.30);
-}
-
 #img_kayak {
   margin-top: 15px;
   margin-bottom: 5px;
@@ -104,4 +95,37 @@ p {
   position: relative;
   /* left: 50%;
   transform: translateX(-50%); */
+}
+
+.right-menu {
+  margin: 0 15px 0 15px;
+  background-color: var(--right-menu-color);
+  height: 90%;
+  width: 40%;
+  /* border-radius: 20px; */
+  /* box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.30); */
+}
+
+.map-container {
+  text-align: center;
+  height: 80%;
+  overflow: hidden;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.30);
+  border-radius: 5px;
+  background-color: greenyellow;
+}
+
+#map {
+  width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.coordonnees {
+  margin: 20px 15px 0 15px;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

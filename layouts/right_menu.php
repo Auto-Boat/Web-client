@@ -1,3 +1,11 @@
+<?php
+include_once('fonctions.php');
+?>
+
 <div class="right-menu">
-  <!-- <h2>Ya</h2> -->
+  <?php callComponent('map'); ?>
+  <div class="coordonnees">
+    <p>Latitude</p>
+    <p>Longitude</p>
+  </div>
 </div>
