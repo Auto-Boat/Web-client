@@ -1,5 +1,6 @@
 # Web-client
-Users can visualize the datas sent by the boat via this app
+Users can visualize the datas sent by the boat via this app.
+Tu run it locally, you need to have PHP installed on your machine.
 # How to start the project
 First copy the URL link, or the SSH key.
 Then open a terminal and type ```git clone <key>```.
