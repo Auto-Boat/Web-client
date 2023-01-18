@@ -14,8 +14,12 @@
     <?php include("layouts/left_menu.php"); ?>
     <?php include("layouts/right_menu.php"); ?>
   </div>
+  <?php updateData(10, 10, 10, 5, 10);
+
+  ?>
 </body>
 
-<script src="index.js"></script>
+
+<script src="./index.js"></script>
 
 </html>
